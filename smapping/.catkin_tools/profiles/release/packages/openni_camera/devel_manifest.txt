@@ -1,0 +1,15 @@
+openni_camera/openni_camera
+/home/abdessalem/smapping/devel_release/.private/openni_camera/cmake.lock /home/abdessalem/smapping/devel_release/./cmake.lock
+/home/abdessalem/smapping/devel_release/.private/openni_camera/share/openni_camera/cmake/openni_cameraConfig.cmake /home/abdessalem/smapping/devel_release/share/openni_camera/cmake/openni_cameraConfig.cmake
+/home/abdessalem/smapping/devel_release/.private/openni_camera/share/openni_camera/cmake/openni_cameraConfig-version.cmake /home/abdessalem/smapping/devel_release/share/openni_camera/cmake/openni_cameraConfig-version.cmake
+/home/abdessalem/smapping/devel_release/.private/openni_camera/share/openni_camera/docs/OpenNIConfig.wikidoc /home/abdessalem/smapping/devel_release/share/openni_camera/docs/OpenNIConfig.wikidoc
+/home/abdessalem/smapping/devel_release/.private/openni_camera/share/openni_camera/docs/OpenNIConfig.dox /home/abdessalem/smapping/devel_release/share/openni_camera/docs/OpenNIConfig.dox
+/home/abdessalem/smapping/devel_release/.private/openni_camera/share/openni_camera/docs/OpenNIConfig-usage.dox /home/abdessalem/smapping/devel_release/share/openni_camera/docs/OpenNIConfig-usage.dox
+/home/abdessalem/smapping/devel_release/.private/openni_camera/lib/libopenni_nodelet.so /home/abdessalem/smapping/devel_release/lib/libopenni_nodelet.so
+/home/abdessalem/smapping/devel_release/.private/openni_camera/lib/libopenni_driver.so /home/abdessalem/smapping/devel_release/lib/libopenni_driver.so
+/home/abdessalem/smapping/devel_release/.private/openni_camera/lib/python3/dist-packages/openni_camera/__init__.py /home/abdessalem/smapping/devel_release/lib/python3/dist-packages/openni_camera/__init__.py
+/home/abdessalem/smapping/devel_release/.private/openni_camera/lib/python3/dist-packages/openni_camera/cfg/__init__.py /home/abdessalem/smapping/devel_release/lib/python3/dist-packages/openni_camera/cfg/__init__.py
+/home/abdessalem/smapping/devel_release/.private/openni_camera/lib/python3/dist-packages/openni_camera/cfg/OpenNIConfig.py /home/abdessalem/smapping/devel_release/lib/python3/dist-packages/openni_camera/cfg/OpenNIConfig.py
+/home/abdessalem/smapping/devel_release/.private/openni_camera/lib/openni_camera/openni_node /home/abdessalem/smapping/devel_release/lib/openni_camera/openni_node
+/home/abdessalem/smapping/devel_release/.private/openni_camera/lib/pkgconfig/openni_camera.pc /home/abdessalem/smapping/devel_release/lib/pkgconfig/openni_camera.pc
+/home/abdessalem/smapping/devel_release/.private/openni_camera/include/openni_camera/OpenNIConfig.h /home/abdessalem/smapping/devel_release/include/openni_camera/OpenNIConfig.h

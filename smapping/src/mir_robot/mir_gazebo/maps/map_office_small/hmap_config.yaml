@@ -1,0 +1,7 @@
+layers:
+  - frame_id: map
+    file: occupancy
+    load_file: true
+    class: OccupancyGridLayer
+    name: occupancy
+    publish_global_topics: true

@@ -1,0 +1,66 @@
+[  0%] Built target geometry_msgs_generate_messages_eus
+[  0%] Built target std_msgs_generate_messages_eus
+[  0%] Built target actionlib_msgs_generate_messages_nodejs
+[  0%] Built target actionlib_msgs_generate_messages_eus
+[  0%] Built target sensor_msgs_generate_messages_eus
+[  0%] Built target std_msgs_generate_messages_nodejs
+[  0%] Built target geometry_msgs_generate_messages_nodejs
+[  0%] Built target sensor_msgs_generate_messages_nodejs
+[  0%] Built target _darknet_ros_msgs_generate_messages_check_deps_CheckForObjectsGoal
+[  0%] Built target geometry_msgs_generate_messages_lisp
+[  0%] Built target std_msgs_generate_messages_lisp
+[  0%] Built target actionlib_msgs_generate_messages_lisp
+[  0%] Built target _darknet_ros_msgs_generate_messages_check_deps_CheckForObjectsActionResult
+[  0%] Built target sensor_msgs_generate_messages_lisp
+[  0%] Built target std_msgs_generate_messages_cpp
+[  0%] Built target _darknet_ros_msgs_generate_messages_check_deps_CheckForObjectsFeedback
+[  0%] Built target _darknet_ros_msgs_generate_messages_check_deps_CheckForObjectsActionFeedback
+[  0%] Built target _darknet_ros_msgs_generate_messages_check_deps_CheckForObjectsActionGoal
+[  0%] Built target _darknet_ros_msgs_generate_messages_check_deps_ObjectCount
+[  0%] Built target _darknet_ros_msgs_generate_messages_check_deps_BoundingBoxes
+[  0%] Built target _darknet_ros_msgs_generate_messages_check_deps_CheckForObjectsAction
+[  0%] Built target _darknet_ros_msgs_generate_messages_check_deps_CheckForObjectsResult
+[  0%] Built target actionlib_msgs_generate_messages_cpp
+[  0%] Built target geometry_msgs_generate_messages_cpp
+[  0%] Built target sensor_msgs_generate_messages_cpp
+[  0%] Built target std_msgs_generate_messages_py
+[  0%] Built target geometry_msgs_generate_messages_py
+[  0%] Built target sensor_msgs_generate_messages_py
+[  0%] Built target actionlib_msgs_generate_messages_py
+[  0%] Built target _darknet_ros_msgs_generate_messages_check_deps_BoundingBox
+[  0%] Built target rosgraph_msgs_generate_messages_py
+[  0%] Built target rosgraph_msgs_generate_messages_lisp
+[  0%] Built target rosgraph_msgs_generate_messages_cpp
+[  0%] Built target rosgraph_msgs_generate_messages_nodejs
+[  0%] Built target rosgraph_msgs_generate_messages_eus
+[ 22%] Built target darknet_ros_msgs_generate_messages_nodejs
+[ 22%] Built target darknet_ros_msgs_generate_messages_eus
+[ 43%] Built target darknet_ros_msgs_generate_messages_cpp
+[ 43%] Built target darknet_ros_msgs_generate_messages_lisp
+[ 54%] Built target darknet_ros_msgs_generate_messages_py
+[ 54%] Built target _mapping_msgs_generate_messages_check_deps_FindObjects
+[ 54%] Built target _mapping_msgs_generate_messages_check_deps_BoundingBoxes
+[ 54%] Built target _mapping_msgs_generate_messages_check_deps_ObjectCount
+[ 54%] Built target _mapping_msgs_generate_messages_check_deps_ObjectPositions
+[ 54%] Built target _mapping_msgs_generate_messages_check_deps_BoundingBox
+[ 54%] Built target _mapping_msgs_generate_messages_check_deps_BoxesAndClouds
+[ 54%] Built target darknet_ros_msgs_generate_messages
+[ 54%] Built target _mapping_msgs_generate_messages_check_deps_SemanticMap
+[ 54%] Built target _mapping_msgs_generate_messages_check_deps_SemanticObject
+[ 63%] Built target mapping_msgs_generate_messages_nodejs
+[ 71%] Built target mapping_msgs_generate_messages_cpp
+[ 81%] Built target mapping_msgs_generate_messages_lisp
+[ 90%] Built target mapping_msgs_generate_messages_eus
+[100%] Built target mapping_msgs_generate_messages_py
+[100%] Built target mapping_msgs_generate_messages
+Base path: /home/ismael/smapping
+Source space: /home/ismael/smapping/src
+Build space: /home/ismael/smapping/build
+Devel space: /home/ismael/smapping/devel
+Install space: /home/ismael/smapping/install
+####
+#### Running command: "make cmake_check_build_system" in "/home/ismael/smapping/build"
+####
+####
+#### Running command: "make -j16 -l16" in "/home/ismael/smapping/build"
+####

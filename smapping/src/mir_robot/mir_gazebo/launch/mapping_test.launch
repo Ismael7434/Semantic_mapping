@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<launch>
+  <arg name="gui" default="true" />
+  <arg name="mir_type" default="mir_100" doc="The MiR variant. Can be 'mir_100' or 'mir_250' for now." />
+  <arg name="tf_prefix" default="" doc="tf_prefix to be used by gazebo plugins and in the robot's urdf etc." />
+
+  <!-- Launch the environment world-->
+  <include file="$(find mir_gazebo)/launch/mir_office_world.launch">
+    <arg name="gui" value="$(arg gui)" />
+    <arg name="mir_type" value="$(arg mir_type)" />
+    <arg name="tf_prefix" value="$(arg tf_prefix)" />
+  </include>
+
+  <!-- Launch the fake localization node-->
+  <!--<include file="$(find mir_gazebo)/launch/fake_localization.launch">
+    <arg name="delta_x"       value="0.0" />
+    <arg name="delta_y"       value="0.0" />
+  </include>-->
+
+  <!--<include file="$(find mir_navigation)/launch/amcl.launch">
+    <arg name="initial_pose_x"       value="0.0" />
+    <arg name="initial_pose_y"       value="0.0" />
+  </include>-->
+
+  <node pkg="gmapping" type="slam_gmapping" name="gmapping">
+        <param name="scan" value="scan"/>
+    </node>
+    
+  <node pkg="teleop_twist_keyboard" type="teleop_twist_keyboard.py" name="teleop" output="screen"/>
+
+  <!-- Launch the mapping nodes-->
+  <!--<include file="$(find mir_navigation)/launch/hector_mapping.launch"/>-->
+
+  <!--<include file="$(find mir_navigation)/launch/move_base.launch">
+    <arg name="with_virtual_walls" value="false" />
+  </include>-->
+
+  <!-- Launch RVIZ-->
+  <node name="rviz" pkg="rviz" type="rviz" args="-d $(find mir_navigation)/rviz/navigation.rviz"/>
+
+
+</launch>

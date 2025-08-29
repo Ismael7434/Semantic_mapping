@@ -1,0 +1,5 @@
+openni_camera/openni_launch
+/home/abdessalem/smapping/devel_release/.private/openni_launch/cmake.lock /home/abdessalem/smapping/devel_release/./cmake.lock
+/home/abdessalem/smapping/devel_release/.private/openni_launch/share/openni_launch/cmake/openni_launchConfig.cmake /home/abdessalem/smapping/devel_release/share/openni_launch/cmake/openni_launchConfig.cmake
+/home/abdessalem/smapping/devel_release/.private/openni_launch/share/openni_launch/cmake/openni_launchConfig-version.cmake /home/abdessalem/smapping/devel_release/share/openni_launch/cmake/openni_launchConfig-version.cmake
+/home/abdessalem/smapping/devel_release/.private/openni_launch/lib/pkgconfig/openni_launch.pc /home/abdessalem/smapping/devel_release/lib/pkgconfig/openni_launch.pc

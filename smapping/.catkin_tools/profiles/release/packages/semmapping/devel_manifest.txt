@@ -1,0 +1,13 @@
+sem_mapping/semmapping
+/home/abdessalem/smapping/devel_release/.private/semmapping/cmake.lock /home/abdessalem/smapping/devel_release/./cmake.lock
+/home/abdessalem/smapping/devel_release/.private/semmapping/share/semmapping/cmake/semmappingConfig-version.cmake /home/abdessalem/smapping/devel_release/share/semmapping/cmake/semmappingConfig-version.cmake
+/home/abdessalem/smapping/devel_release/.private/semmapping/share/semmapping/cmake/semmappingConfig.cmake /home/abdessalem/smapping/devel_release/share/semmapping/cmake/semmappingConfig.cmake
+/home/abdessalem/smapping/devel_release/.private/semmapping/share/semmapping/docs/ParamsConfig.dox /home/abdessalem/smapping/devel_release/share/semmapping/docs/ParamsConfig.dox
+/home/abdessalem/smapping/devel_release/.private/semmapping/share/semmapping/docs/ParamsConfig.wikidoc /home/abdessalem/smapping/devel_release/share/semmapping/docs/ParamsConfig.wikidoc
+/home/abdessalem/smapping/devel_release/.private/semmapping/share/semmapping/docs/ParamsConfig-usage.dox /home/abdessalem/smapping/devel_release/share/semmapping/docs/ParamsConfig-usage.dox
+/home/abdessalem/smapping/devel_release/.private/semmapping/lib/python3/dist-packages/semmapping/__init__.py /home/abdessalem/smapping/devel_release/lib/python3/dist-packages/semmapping/__init__.py
+/home/abdessalem/smapping/devel_release/.private/semmapping/lib/python3/dist-packages/semmapping/cfg/__init__.py /home/abdessalem/smapping/devel_release/lib/python3/dist-packages/semmapping/cfg/__init__.py
+/home/abdessalem/smapping/devel_release/.private/semmapping/lib/python3/dist-packages/semmapping/cfg/ParamsConfig.py /home/abdessalem/smapping/devel_release/lib/python3/dist-packages/semmapping/cfg/ParamsConfig.py
+/home/abdessalem/smapping/devel_release/.private/semmapping/lib/pkgconfig/semmapping.pc /home/abdessalem/smapping/devel_release/lib/pkgconfig/semmapping.pc
+/home/abdessalem/smapping/devel_release/.private/semmapping/lib/semmapping/mapping /home/abdessalem/smapping/devel_release/lib/semmapping/mapping
+/home/abdessalem/smapping/devel_release/.private/semmapping/include/semmapping/ParamsConfig.h /home/abdessalem/smapping/devel_release/include/semmapping/ParamsConfig.h

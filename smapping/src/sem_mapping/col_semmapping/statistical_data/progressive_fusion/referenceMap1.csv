@@ -1,0 +1,21 @@
+Map average metrics
+Class name,TP, FP, FN - Missing objects, Mean IOU, Mean CoM offset, Mean orientation offset, F1score
+Chair,4,0,1,0.739296,0.0673849,2.36382,0.888889
+Couch,3,0,0,0.794958,0.1114,5.28593,1
+Shelf,3,0,0,0.799616,0.0809672,0.460711,1
+Table,6,0,0,0.765833,0.18967,14.9656,1
+
+Metrics per Object (objects that have OBB-based representation)
+Object Id, Class name, IOU, CoM offset, Orientation offset
+Object1,Shelf,0.799616,0.0809672,0.460711
+Object2,Couch,0.72264,0.150609,7.64504
+Object3,Table,0.952522,0.0393749,0.197437
+Object4,Chair,0.788137,0.0515163,2.61075
+Object5,Chair,0.817495,0.0461257,3.30763
+Object6,Table,0.316758,0.662637,56.6213
+Object7,Chair,0.613029,0.107012,1.90969
+Object8,Couch,0.939593,0.0329825,0.567725
+Object9,Chair,0.738523,0.0648855,1.62722
+Object10,Table,0.936664,0.0439644,0.00578745
+Object11,Table,0.695009,0.126378,13.0947
+Object12,Table,0.958732,0.0170108,0.933077

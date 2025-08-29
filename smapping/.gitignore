@@ -1,0 +1,3 @@
+# ignore tracking buil and devel directories
+build/
+devel/

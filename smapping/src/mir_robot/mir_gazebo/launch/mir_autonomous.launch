@@ -1,0 +1,69 @@
+<?xml version="1.0"?>
+<launch>
+  <arg name="gui" default="true" />
+  <arg name="mir_type" default="mir_100" doc="The MiR variant. Can be 'mir_100' or 'mir_250' for now." />
+  <arg name="tf_prefix" default="" doc="tf_prefix to be used by gazebo plugins and in the robot's urdf etc." />
+  <!--<arg name="world" default="/home/abdessalem/gazebo_models_worlds_collection/worlds/office_small.world" />-->
+  <!--<arg name="world" default="/home/abdessalem/gazebo_models_worlds_collection/worlds/office_small_well_arranged.world" />-->
+  <!--<arg name="world" default="/home/abdessalem/gazebo_models_worlds_collection/worlds/office_iros_cluttered.world" />-->
+  <!--<arg name="world" default="/home/abdessalem/gazebo_models_worlds_collection/worlds/office_iros_cluttered_groundTruth_copy.world" />-->
+  <!--<arg name="world" default="/home/abdessalem/gazebo_models_worlds_collection/worlds/office_iros_very_cluttered.world" />-->
+  <arg name="world" default="/home/ismael/experimentation.world" />
+
+  <!--<arg name="world" default="/home/abdessalem/gazebo_models_worlds_collection/worlds/office_iros_cluttered_added_changedchaircolor.world" />-->
+  <!--<arg name="world" default="/home/abdessalem/gazebo_models_worlds_collection/worlds/office_iros_cluttered_deplaced_chair.world" />-->
+  <!--<arg name="world" default="/home/abdessalem/gazebo_models_worlds_collection/worlds/office_iros_cluttered_deplaced_chair_added_couch.world" />-->
+  
+  <!--<arg name="map_file" value="$(find mir_gazebo)/maps/map_office_with_objects/map.yaml" />-->
+  <!--<arg name="map_file" value="$(find mir_gazebo)/maps/map_office_with_objects/map.yaml" />-->
+  <arg name="map_file" value="/home/ismael/Occupy_map/experiment.yaml" />
+  <!--<arg name="map_file" value="$(find mir_gazebo)/maps/map_office_small_well_arranged/well_arranged_occupancy_map.yaml" />-->
+  
+
+  <!-- Launch the environment world-->
+  <include file="$(find mir_gazebo)/launch/mir_office_world.launch">
+    <arg name="gui" value="$(arg gui)" />
+    <arg name="mir_type" value="$(arg mir_type)" />
+    <arg name="tf_prefix" value="$(arg tf_prefix)" />
+    <arg name="world"       value="$(arg world)" />
+  </include>
+
+
+  <!-- include gazebo_ros launcher -->
+  <!--<include file="$(find gazebo_ros)/launch/empty_world.launch">
+    <arg name="world_name" value="$(arg world)" />
+    <arg name="gui" value="$(arg gui)" />
+  </include>-->
+
+  <!-- Launch the fake localization node-->
+  <include file="$(find mir_gazebo)/launch/fake_localization.launch">
+    <arg name="delta_x"       value="0.0" />
+    <arg name="delta_y"       value="0.0" />
+  </include>
+
+  <!-- Launch amcl localization node (introduces localization errors) -->
+  <!--<include file="$(find mir_navigation)/launch/amcl.launch">
+    <arg name="initial_pose_x"       value="0.0" />
+    <arg name="initial_pose_y"       value="0.0" />
+    <arg name="initial_pose_a"       value="0.0" />
+  </include>-->
+
+  <!-- Launch the navigation nodes-->
+  <!--<arg name="map_file" value="$(find mir_gazebo)/maps/map_office_empty/empty_occupancy.yaml" />-->
+  <include file="$(find mir_navigation)/launch/start_planner.launch">
+    <arg name="local_planner" value="dwa"/>
+    <arg name="map_file" value="$(arg map_file)" />
+    <arg name="prefix" value="$(arg tf_prefix)" />
+  </include>
+
+  <!-- Launch RVIZ-->
+  <node name="rviz" pkg="rviz" type="rviz" args="-d $(find mir_navigation)/rviz/navigation.rviz"/>
+
+  <!-- Object Detection-->
+  <node pkg= "tensorflow_object_detector" name="detect_ros" type="detect_ros.py"  output="screen"> 
+    <remap from="image" to="/camera/rgb/image_raw/compressed"/>
+    <remap from='points' to='/camera/depth/points'/>
+	  <param name="compressed" value="true" />
+	</node>
+
+</launch>

@@ -1,0 +1,5 @@
+mir_robot/mir_navigation
+/home/abdessalem/smapping/devel_release/.private/mir_navigation/cmake.lock /home/abdessalem/smapping/devel_release/./cmake.lock
+/home/abdessalem/smapping/devel_release/.private/mir_navigation/share/mir_navigation/cmake/mir_navigationConfig.cmake /home/abdessalem/smapping/devel_release/share/mir_navigation/cmake/mir_navigationConfig.cmake
+/home/abdessalem/smapping/devel_release/.private/mir_navigation/share/mir_navigation/cmake/mir_navigationConfig-version.cmake /home/abdessalem/smapping/devel_release/share/mir_navigation/cmake/mir_navigationConfig-version.cmake
+/home/abdessalem/smapping/devel_release/.private/mir_navigation/lib/pkgconfig/mir_navigation.pc /home/abdessalem/smapping/devel_release/lib/pkgconfig/mir_navigation.pc

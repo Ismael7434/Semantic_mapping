@@ -1,0 +1,8 @@
+sem_mapping/NeuralNet/tensorflow_object_detector
+/home/abdessalem/smapping/devel_release/.private/tensorflow_object_detector/cmake.lock /home/abdessalem/smapping/devel_release/./cmake.lock
+/home/abdessalem/smapping/devel_release/.private/tensorflow_object_detector/share/tensorflow_object_detector/cmake/tensorflow_object_detectorConfig.cmake /home/abdessalem/smapping/devel_release/share/tensorflow_object_detector/cmake/tensorflow_object_detectorConfig.cmake
+/home/abdessalem/smapping/devel_release/.private/tensorflow_object_detector/share/tensorflow_object_detector/cmake/tensorflow_object_detectorConfig-version.cmake /home/abdessalem/smapping/devel_release/share/tensorflow_object_detector/cmake/tensorflow_object_detectorConfig-version.cmake
+/home/abdessalem/smapping/devel_release/.private/tensorflow_object_detector/lib/python3/dist-packages/object_detection/__init__.py /home/abdessalem/smapping/devel_release/lib/python3/dist-packages/object_detection/__init__.py
+/home/abdessalem/smapping/devel_release/.private/tensorflow_object_detector/lib/pkgconfig/tensorflow_object_detector.pc /home/abdessalem/smapping/devel_release/lib/pkgconfig/tensorflow_object_detector.pc
+/home/abdessalem/smapping/devel_release/.private/tensorflow_object_detector/lib/tensorflow_object_detector/cmake.lock /home/abdessalem/smapping/devel_release/lib/tensorflow_object_detector/cmake.lock
+/home/abdessalem/smapping/devel_release/.private/tensorflow_object_detector/lib/tensorflow_object_detector/detect_ros.py /home/abdessalem/smapping/devel_release/lib/tensorflow_object_detector/detect_ros.py

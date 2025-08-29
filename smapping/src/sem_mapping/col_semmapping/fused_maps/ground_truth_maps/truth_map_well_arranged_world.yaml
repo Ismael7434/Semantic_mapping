@@ -1,0 +1,24 @@
+- name: Chair
+  shape_union: POLYGON((-2.32 -3.71,-2.58 -3.17,-2.03 -2.92,-1.78 -3.46,-2.32 -3.71))
+- name: Table
+  shape_union: POLYGON((-2.78 -4.05,-0.998 -4.05,-0.998 -4.85,-2.78 -4.85,-2.78 -4.85))
+- name: Table
+  shape_union: POLYGON((1.39 -4.05,3.19 -4.05, 3.19 -4.85,1.39 -4.85, 1.39 -4.05))
+- name: Chair
+  shape_union: POLYGON((1.95 -3.82, 2.52 -3.82, 2.52 -4.42, 1.95 -4.42, 1.95 -3.82))
+- name: Shelf
+  shape_union: POLYGON((4.39 -2.34, 4.79 -2.34, 4.79 -3.24, 4.39 -3.24, 4.39 -2.34))
+- name: Table
+  shape_union: POLYGON((4.07 1.338, 4.07 3.12, 4.87 3.12, 4.87 1.338, 4.07 1.338))
+- name: Chair
+  shape_union: POLYGON((3.82 2.55, 4.42 2.55, 4.42 1.98, 3.82 1.98, 3.82 2.55))
+- name: Table
+  shape_union: POLYGON((1.61 4.07, 1.61 4.87, 3.41 4.87, 3.41 4.07, 1.61 4.07))
+- name: Chair
+  shape_union: POLYGON((2.25 3.78, 2.25 4.38, 2.82 4.38, 2.82 3.78, 2.25 3.78))
+- name: Table
+  shape_union: POLYGON((-1.57 4.12, -3.352 4.12, -3.352 4.92, -1.57 4.92, -1.57 4.12))
+- name: Sofa bed
+  shape_union: POLYGON((-3.91 -1.22, -4.88 -1.22, -4.88 0.789, -3.91 0.789, -3.91 -1.22))
+- name: Sofa bed
+  shape_union: POLYGON((-1.69 0.99, -3.699 0.99, -3.699 1.96, -1.69 1.96, -1.69 0.99))

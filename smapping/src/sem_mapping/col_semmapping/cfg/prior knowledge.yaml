@@ -1,0 +1,28 @@
+- name: Chair
+  length: 0.6
+  width: 0.57
+  objectNumber : 5
+- name: Table
+  length: 1.782
+  width: 0.8
+  objectNumber : 6
+- name: Sofa bed
+  length: 0.97
+  width: 2.009
+  objectNumber : 0
+- name: Couch
+  length: 0.97
+  width: 2.009
+  objectNumber : 3
+- name: Shelf
+  length: 0.9
+  width: 0.4
+  objectNumber : 3
+- name: Ball
+  length: 0.2
+  width: 0.2
+  objectNumber : 0
+  name: Skyscraper
+  length: 0.6
+  width: 0.57
+  objectNumber : 5
